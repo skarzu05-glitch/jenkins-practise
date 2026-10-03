@@ -5,7 +5,7 @@ pipeline{
         stage('checkout')
         {
             steps{
-                git branch: '*/main',
+                git branch: 'main',
                 url :"https://github.com/skarzu05-glitch/jenkins-practise.git"
             }
         }
